@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-color: #06161E;
+    
+}
+
+header{
+    background-color: #114658;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    padding-left: 50px;
+}
+
+#headline {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    gap: 10px;
+}
+
+#text_logo{
+    font-size: 30px;
+}
+
+#img_logo{
+    height: 100px;
+    width: auto;
+}
+
+#book_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.book_style{
+    width: 600px;
+    height: 900px;
+    border: 2px solid white;
+    display: flex;
+    background-color: #0C3240;
+    color: white;
+    flex-direction: column;
+    margin-top: 80px;
+    border-radius: 30px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.book_picture{
+    align-items: center;
+    padding: 20px 50px;
+    border-bottom: 1px solid white;
+}
+
+#price_and_likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 50px;
+
+}
+
+#likes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.heart{
+    height: 45px;
+    width: auto;
+}
+
+.blank_heart{
+    height: 45px;
+    width: auto;
+    filter: invert(1);
+
+}
+
+#price{
+    font-size: 40px;
+    color:  #13B512;
+    margin: 0;
+}
+
+#book_information{
+    margin: 0px 50px;
+}
+
+.td_left{
+    width: 150px;
+}
+
+#comment_area{
+    margin: 20px 50px;
+    border-top: 1px solid white;
+
+}
+
+.input_area{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.input_style{
+    width: 100%;
+    height: 30px;
+}
+
+#send_icon{
+    filter: invert(100%); 
+    height: 30px;
+    width: auto;
+}
+
+.comment_table{
+    height: 150px;
+    overflow: auto;
+}
