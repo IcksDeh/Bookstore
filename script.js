@@ -77,5 +77,11 @@ function pressLikeBtn(bookIndex){
 
   function loadFromLocalStorage(){
     let booksArray = JSON.parse(localStorage.getItem("books"));
-    books = booksArray;
+    if(booksArray == null){
+        booksArray = books;
+    }
+    else{
+      books = booksArray;
+    }
+
   }
